@@ -1,0 +1,38 @@
+#desktop-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80px;
+    background: lightgray;
+    text-align: left;
+    z-index: 99;
+}
+
+#desktop-page-title {
+    display: inline-block;
+}
+
+#desktop-search-form {
+    position: absolute;
+    top: 28px;
+    left: 200px;
+    width: calc(100vw - 30%);
+    background: white;
+
+}
+
+#desktop-search-bar {
+    background: none;
+    outline: none;
+    border: none;
+    height: 24px;
+    padding-left: 10px;
+    width: calc(100% - 40px);
+}
+
+#desktop-search-btn {
+    background: none;
+    outline: none;
+    border: none;
+}
